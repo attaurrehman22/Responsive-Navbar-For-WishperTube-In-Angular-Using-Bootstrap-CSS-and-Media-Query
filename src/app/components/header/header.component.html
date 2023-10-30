@@ -1,0 +1,58 @@
+
+<header>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 col-sm-12 col-12 d-flex">
+
+        <div class="col-md-1 col-sm-1 col-1">
+
+        </div>
+
+        <div class="col-md-1 col-sm-1 col-1">
+          <img
+            src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg"
+            alt=""
+          />
+        </div>
+
+        <div class="col-md-1 col-sm-1 col-1">
+
+        </div>
+
+        <div class="col-md-7 col-sm-7 col-7 d-flex">
+          <div class="menue-icon" [class.menu_icon_class]="menu_icon_variable" (click)="openMenu()">
+              <span></span>
+              <span></span>
+              <span></span>
+          </div>
+          <div class="menue col-md-12 col-sm-12 col-12 d-flex" [class.menuClass]="menuVariable">
+              <div class="col-md-4 col-sm-4 col-4 d-flex menue-div">
+                  <ul class="flex-ul">
+                      <li [routerLink]="['']">About</li>
+                      <li [routerLink]="['createticket']">Pricing</li>
+                      <li [routerLink]="['createticket']">Video</li>
+                  </ul>
+              </div>
+              <div class="col-md-6 col-sm-6 col-6 menue-div"></div>
+              <div class="col-md-4 col-sm-4 col-4 menue-div">
+                  <div class="flex-ul">
+                    <div class="flex-ul">
+                      <button class="btn btn-warn border rounded">Get Started</button>
+                    </div>
+                    <div class="flex-ul">
+                      <button class="btn btn-light mx-3 border rounded">Sign In</button>
+                    </div>
+                     
+                     
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+        
+
+
+      </div>
+    </div>
+  </div>
+</header>
